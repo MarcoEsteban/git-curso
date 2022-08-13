@@ -20,7 +20,6 @@
 [*] Pava visualizar los commit realizados con su descripcion:
   > git log
   > git log --oneline   #Indico que me lo muestre todo en una sola linea.
-  > git log --oneline   #Indico que me lo muestre todo en una sola linea.
 
 [*] Si tenemos variaos commit realizados y queremos volver a un commit o version anterior:
   > git checkout codigo_commit_anterior(rama o branch) ó (master)
@@ -31,6 +30,10 @@
 [*] En el caso que borramos un archivo y lo guardamos en el 'Local Repository' lo podemos recuperar:
   > git restore name_file
 
+
+#####################################################################################################
+#                               Rama en Git                                                         #
+#####################################################################################################
 [*] Para visualizar las ramas(branch) que tenemos:
   > git branch
 
@@ -71,7 +74,7 @@
     [*] Paso 4: Hacer un push de nuestra rama master:
       > git push -u origin master
 
-    [*] Si queremos descargar un repositorio de Github ya sea por 'HTTPS' ó 'SSH'
+    [*] Si queremos descargar o clonar un repositorio de Github ya sea por 'HTTPS' ó 'SSH'
       > git clone git@github.com:repositorio/curso-git.git             #Descargando Repository mediante SSH.
       > git clone https://github.com/repositorio/curso-git.git         #Descargando Repository mediante HTTPS.
   
