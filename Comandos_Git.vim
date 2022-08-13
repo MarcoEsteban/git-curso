@@ -38,6 +38,17 @@
   > git checkout -b name_branch         
 
 #####################################################################################################
+#                               Rama en Git                                                         #
+#####################################################################################################
+[*] Para visualizar las ramas(branch) que tenemos:
+  > git branch
+
+[*] Sirve para crear una rama.
+  > git checkout -b name_branch   
+
+[*] Subiendo mi rama a Github, la rama en Github es independiente de la rama master:
+  > git push -u origin name_branch 
+#####################################################################################################
 #                               Subiendo mi Proyecto a Github                                       #
 #####################################################################################################
 [*] Cuando creas un proyecto en Github, el programa te genera un documento con los comando a seguir que Puedes subir tanto mediante 'HTTPS' ó 'SSH':
