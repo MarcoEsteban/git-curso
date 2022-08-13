@@ -51,6 +51,12 @@
   > git pull
 
 #####################################################################################################
+#                          Mesclando Ramas Localmente con merge                                     #
+#####################################################################################################
+[*] Una vez que tenemos modificados nuestras ramas, podemos unir nuestras ramas Localmente, sin afectar la rama master:
+  > git merge name_branch
+
+#####################################################################################################
 #                               Subiendo mi Proyecto a Github                                       #
 #####################################################################################################
 [*] Cuando creas un proyecto en Github, el programa te genera un documento con los comando a seguir que Puedes subir tanto mediante 'HTTPS' ó 'SSH':

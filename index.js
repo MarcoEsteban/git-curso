@@ -55,5 +55,8 @@ const getBlogContent = async () => {
 
 getBlogContent();
 
-
+// Loads Advertisements from JS:
+const loadAdvertisements = () => {
+  console.log("Add Advertisements a HTML");
+}
 
