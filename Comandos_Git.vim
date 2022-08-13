@@ -38,19 +38,18 @@
   > git branch
 
 [*] Sirve para crear una rama.
-  > git checkout -b name_branch         
-
-#####################################################################################################
-#                               Rama en Git                                                         #
-#####################################################################################################
-[*] Para visualizar las ramas(branch) que tenemos:
-  > git branch
-
-[*] Sirve para crear una rama.
   > git checkout -b name_branch   
 
 [*] Subiendo mi rama a Github, la rama en Github es independiente de la rama master:
   > git push -u origin name_branch 
+
+#####################################################################################################
+#                          Pull Request en Github                                                   #
+#####################################################################################################
+[*] Una ves que  hicimos un Merge Pull Request en Github, es decir de haber unidos las ramas podemos
+    descargar el Merge Pull Request:
+  > git pull
+
 #####################################################################################################
 #                               Subiendo mi Proyecto a Github                                       #
 #####################################################################################################
