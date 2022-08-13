@@ -20,6 +20,7 @@
 [*] Pava visualizar los commit realizados con su descripcion:
   > git log
   > git log --oneline   #Indico que me lo muestre todo en una sola linea.
+  > git log --graph --oneline   #Indico que me lo muestre todo en una sola linea y me lo muestre de forma grafica.
 
 [*] Si tenemos variaos commit realizados y queremos volver a un commit o version anterior:
   > git checkout codigo_commit_anterior(rama o branch) ó (master)
@@ -47,7 +48,7 @@
 #                          Pull Request en Github                                                   #
 #####################################################################################################
 [*] Una ves que  hicimos un Merge Pull Request en Github, es decir de haber unidos las ramas podemos
-    descargar el Merge Pull Request:
+    descargar el Merge Pull Request para tener todo actualizado:
   > git pull
 
 #####################################################################################################
