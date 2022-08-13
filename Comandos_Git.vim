@@ -14,8 +14,8 @@
   > git commit -m "Aqui entre las comillas agregamos una descripcion del commit."
 
 [*] En caso de que nos de un error de la configuracion global realizamos los siguiente:
-  > git config --global user.email "marcoscampomc43@gmail.com"
-  > git config --global user.name "Marco Campos"
+  > git config --global user.email "ejemplo@gmail.com"
+  > git config --global user.name "Your Name"
 
 [*] Pava visualizar los commit realizados con su descripcion:
   > git log
@@ -46,14 +46,14 @@
   ######################################################################################
   Pasos a Seguir o Algoritmo:
     [*] Paso 1: Indicamos el Servidor remoto al que vamos a subir:
-      > git remote add origin git@github.com:MarcoEsteban/Curso-Git.git
+      > git remote add origin git@github.com:repositorio/Curso-Git.git
       > git remote -v   #Indicamos que nos muestre el repositorio remoto al que estamos subiendo. (fetch = Bajar) & (push = Subir)
 
     [*] Paso 2: Es opcional es para indicarle que queremos cambiar el nombre de la 'rama=branch':
       > git branch -M main
 
     [*] Paso 3: Generar el codigo 'SSH' o 'SSH keys'
-      > ssh-keygen -t ed25519 -C "marcoscampomc43@gmail"
+      > ssh-keygen -t ed25519 -C "Your_Correo@gmail"
       Opcional:
         > rm-rf /home/username/.ssh      #Elimina la clave ssh generadas.
 
@@ -61,6 +61,6 @@
       > git push -u origin master
 
     [*] Si queremos descargar un repositorio de Github ya sea por 'HTTPS' ó 'SSH'
-      > git clone git@github.com:MarcoEsteban/curso-git.git             #Descargando Repository mediante SSH.
-      > git clone https://github.com/MarcoEsteban/curso-git.git         #Descargando Repository mediante HTTPS.
+      > git clone git@github.com:repositorio/curso-git.git             #Descargando Repository mediante SSH.
+      > git clone https://github.com/repositorio/curso-git.git         #Descargando Repository mediante HTTPS.
   
