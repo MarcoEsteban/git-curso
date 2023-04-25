@@ -8,7 +8,7 @@
   > git status
 
 [*] Una ves Visualizado lo que tenemos, le indicamos que pase de nuestro 'Word Directory' a 'Staging Area':
-  > git add name_file || . "Con el '.' indico que suba todos lo files.
+  > git add name_file || . #Con el '.' indico que suba todos lo files.
 
 [*] Una vez agregado al 'Staging Area', podemos hacer un commit para agregar al 'Local Repository':
   > git commit -m "Aqui entre las comillas agregamos una descripcion del commit."
